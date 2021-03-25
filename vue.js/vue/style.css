@@ -1,0 +1,68 @@
+.container {
+  width: 900px;
+  height: 500px;
+  background-color: #3754fc;
+  margin: auto;
+  overflow: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  opacity: .9;
+}
+
+#input {
+  margin-top: 100px;
+  margin-left: 250px;
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.add {
+  height: 27px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #00ad1d;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  width: 90%;
+  height: 0.1px;
+  border: 0.5;
+}
+
+.delete {
+  height: 27px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #9c0909;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+
+ol li {
+  font-size: 1.5em;
+  width: 50%;
+  margin: 20px;
+  text-align: left;
+  color: white;
+}
+
+ol li:hover {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=style.css.map */
